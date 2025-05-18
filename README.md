@@ -32,12 +32,12 @@ Esta información se utiliza para entrenar y evaluar modelos de clasificación, 
 - Se seleccionó el modelo optimizado con Random Search para entrenar el modelo final y guardarlo.
 
 ## Mejor modelo
-Se utilizaron técnicas de optimización de hiperparámetros mediante GridSearchCV y RandomizedSearchCV para mejorar el rendimiento del modelo de árbol de decisión. Luego de evaluar múltiples combinaciones con validación cruzada, se seleccionaron los mejores parámetros y se reentrenó el modelo final.
+Luego de evaluar múltiples combinaciones con validación cruzada, se seleccionaron los mejores parámetros y se reentrenó el modelo final.
 
-Mejores hiperparámetros seleccionados:
+- Mejores hiperparámetros seleccionados:
 {'criterion': 'entropy', 'max_depth': None, 'max_features': 'sqrt', 'min_samples_leaf': 18, 'min_samples_split': 10}
 
-Accuracy del modelo final en el conjunto de prueba: 0.7208
+- Accuracy del modelo final en el conjunto de prueba: 0.7208
 
 Este resultado indica que el modelo tiene una precisión del 72.08% para predecir correctamente si una persona tiene o no diabetes, basado en los datos disponibles.
 
